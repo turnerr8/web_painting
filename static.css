@@ -1,0 +1,78 @@
+.container {
+    width: 95vh;
+    height: 95vh;
+    border: 1px solid black;
+    margin: auto auto;
+    overflow: hidden;
+    position: relative;
+    background-color: lightgray;
+}
+
+.red {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+    clip-path: polygon(100% 100%, 50% 50%, 100% 0%);
+    right: 0px;
+    margin: 0;
+}
+
+.grey{
+    background-color: gray;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: #ffdb58;
+}
+
+.top-r  {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    clip-path: polygon(0% 0%, 50% 50%, 100% 0%);
+    top: 0;
+    right: 0;
+}
+
+.bottom-m {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    bottom: 0;
+    right: 275px;
+}
+
+.mid {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    clip-path: polygon(100% 100%, 50% 50%, 100% 0%);
+    bottom: 0;
+    right: 500px;
+    margin: 0;
+}
+
+.bottom-l {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    clip-path: polygon(0% 0%, 50% 50%, 0% 100%);
+    bottom: 0;
+}
+
+.top-l {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+}
