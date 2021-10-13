@@ -78,5 +78,20 @@
 }
 
 .box:hover {
-    background-color: black;
+    z-index: 5;
+    animation: change infinite ease 1s;
+}
+
+@keyframes change {
+    0% {
+        background-color: currentColor;
+    }
+    50%{
+        background-color: aquamarine;
+        transform: scale(1.5);
+    }
+    100% {
+        background-color: darkgoldenrod;
+        transform: rotate(360);
+    }
 }
